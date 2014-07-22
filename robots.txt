@@ -1,0 +1,10 @@
+User-agent: Googlebot
+Disallow: # Allow Google
+
+User-agent: Netcraft
+Disallow: # Allow Netcraft
+
+User-agent: *
+Disallow: / # This is an infinite virtual URL space
+
+Sitemap: http://code.stefanflegg.com/sitemap.xml
